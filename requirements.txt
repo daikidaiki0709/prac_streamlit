@@ -8,7 +8,7 @@ conda-package-handling @ file:///Users/runner/miniforge3/conda-bld/conda-package
 cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1639699578867/work
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1642433548627/work
 numpy==1.24.1
-Matplotlib
+matplotlib
 opencv-python==4.7.0.68
 pycosat @ file:///Users/runner/miniforge3/conda-bld/pycosat_1636020570107/work
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
