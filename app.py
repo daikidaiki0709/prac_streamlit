@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 from FuncLaserScattering import delete_distance, skip_distance, correct_distance, correct_intensity, smoothing_apple, fitting_func
