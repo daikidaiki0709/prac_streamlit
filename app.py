@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from FuncLaserScattering import delete_distance, skip_distance, correct_distance, correct_intensity, smoothing_apple, fitting_func
+from matplotlib import rcParams
 
 # st.set_page_config(layout="wide")
 
@@ -93,6 +94,10 @@ else:
 
 
 esti,r2 = fitting_func(distance_eq,intensity ,func_name=func)
+
+
+rcParams['font.family'] = 'sans-serif'
+rcParams['font.sans-serif'] = ['Hiragino Maru Gothic Pro', 'Yu Gothic', 'Meirio', 'Takao', 'IPAexGothic', 'IPAPGothic', 'VL PGothic', 'Noto Sans CJK JP']
 
 fig = plt.figure(figsize=(5,5))
 plt.plot(distance_eq,inte,alpha=1,color='k',label='測定結果')
