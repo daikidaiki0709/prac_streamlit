@@ -5,3 +5,4 @@ scikit-learn
 streamlit
 matplotlib
 seaborn
+japanize-matplotlib
