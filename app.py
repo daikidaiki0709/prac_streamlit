@@ -80,15 +80,19 @@ elif func_menu=="修正済みローレンツ関数_係数4つ":
 elif func_menu=="修正済みゴンペルツ関数_係数2つ":
     func = 'MG2'
     inte = np.exp(intensity)
+    inte = inte/inte.max()
 elif func_menu=="修正済みゴンペルツ関数_係数3つ":
     func = 'MG3'
     inte = np.exp(intensity)
+    inte = inte/inte.max()
 elif func_menu=="修正済みゴンペルツ関数_係数4つ":
     func = 'MG4'
     inte = np.exp(intensity)
+    inte = inte/inte.max()
 else:
     func = 'GaussL'
     inte = np.exp(intensity)
+    inte = inte/inte.max()
 
 #####fitting#####
 
