@@ -97,7 +97,6 @@ else:
 esti,r2 = fitting_func(distance_eq,intensity ,func_name=func)
 
 
-sns.set(font='Yu Gothic')
 
 fig = plt.figure(figsize=(5,5))
 plt.plot(distance_eq,inte,alpha=1,color='k',label='測定結果')
