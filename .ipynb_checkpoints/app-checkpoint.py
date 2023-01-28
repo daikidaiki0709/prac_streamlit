@@ -96,8 +96,7 @@ else:
 esti,r2 = fitting_func(distance_eq,intensity ,func_name=func)
 
 
-rcParams['font.family'] = 'sans-serif'
-rcParams['font.sans-serif'] = ['Hiragino Maru Gothic Pro', 'Yu Gothic', 'Meirio', 'Takao', 'IPAexGothic', 'IPAPGothic', 'VL PGothic', 'Noto Sans CJK JP']
+sns.set(font="IPAexGothic") 
 
 fig = plt.figure(figsize=(5,5))
 plt.plot(distance_eq,inte,alpha=1,color='k',label='測定結果')
