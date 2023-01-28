@@ -2,10 +2,8 @@ import os
 import numpy as np
 import pandas as pd
 import cv2
-import pyfeats
 from scipy.optimize import curve_fit
 from scipy import signal
-from tqdm import tqdm
 from sklearn.metrics import r2_score
 import streamlit as st
 
